@@ -16,3 +16,6 @@ cortex-m = { version = "0.6.1", features = ["const-fn"] }
 
 [target.thumbv7em-none-eabi.dependencies]
 cortex-m = { version = "0.6.1", features = ["const-fn"] }
+
+[target.thumbv7em-none-eabihf.dependencies]
+cortex-m = { version = "0.6.1", features = ["const-fn"] }
